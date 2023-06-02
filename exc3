@@ -1,0 +1,10 @@
+i = 600851475143
+x = 2
+
+while i != 1:
+  num = i%x
+  if(num == 0):
+    i = i/x
+    print(x)
+  else:
+    x = x + 1 
